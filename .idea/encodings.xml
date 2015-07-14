@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tk/patolivre/patobot/webservice/clients/GenericRestClient.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tk/patolivre/patobot/webservice/response/IGenericResult.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/btn_feed_action.xml" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

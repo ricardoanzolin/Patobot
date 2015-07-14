@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary">
+    </android.support.v7.widget.Toolbar>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+
+            android:id="@+id/buttonDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_feed_action"
+            android:src="@drawable/ic_arrow_down_bold_circle_grey600_48dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:id="@+id/buttonUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_feed_action"
+            android:src="@drawable/ic_arrow_up_bold_circle_grey600_48dp"
+            android:layout_above="@+id/buttonRight"
+            android:layout_toLeftOf="@+id/buttonRight"
+            android:layout_toStartOf="@+id/buttonRight" />
+
+        <ImageButton
+            android:id="@+id/buttonRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_feed_action"
+            android:src="@drawable/ic_arrow_right_bold_circle_grey600_48dp"
+            android:layout_above="@+id/buttonDown"
+            android:layout_toRightOf="@+id/buttonDown"
+            android:layout_toEndOf="@+id/buttonDown" />
+
+        <ImageButton
+            android:id="@+id/buttonLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_feed_action"
+            android:src="@drawable/ic_arrow_left_bold_circle_grey600_48dp"
+            android:layout_above="@+id/buttonDown"
+            android:layout_toLeftOf="@+id/buttonDown"
+            android:layout_toStartOf="@+id/buttonDown" />
+
+    </RelativeLayout>
+</LinearLayout>
