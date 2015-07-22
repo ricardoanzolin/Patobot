@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <EditText
+    <AutoCompleteTextView
         android:inputType="text"
         android:id="@+id/editTextServidor"
         android:hint="Ip e Porta do Serviço"
